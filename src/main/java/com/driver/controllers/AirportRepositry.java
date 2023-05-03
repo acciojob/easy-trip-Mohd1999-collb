@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 @Repository
-public class AirportRepository {
+class AirportRepository {
 
     TreeMap<String, Airport> airportDb = new TreeMap<>();
     HashMap<Integer, Flight> flightDb = new HashMap<>();
