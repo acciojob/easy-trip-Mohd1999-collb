@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository
+
 class AirportRepository {
 
     TreeMap<String, Airport> airportDb = new TreeMap<>();
